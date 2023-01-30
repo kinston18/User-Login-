@@ -28,27 +28,8 @@
       </form>
     </div>
   </body>
-  <script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
+  <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-auth.js"></script>
+  <script src="login.js"></script>
   
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-      apiKey: "AIzaSyAj0Lr5K788pCozm-dJyC9g34vtdheVkNo",
-      authDomain: "user-login-4620e.firebaseapp.com",
-      projectId: "user-login-4620e",
-      storageBucket: "user-login-4620e.appspot.com",
-      messagingSenderId: "988152947982",
-      appId: "1:988152947982:web:a5208a867aad8732bd235f",
-      measurementId: "G-FP34V2VPH7"
-    };
-  
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-  </script>
 </html>
